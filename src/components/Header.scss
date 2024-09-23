@@ -1,0 +1,31 @@
+// src/components/Header.scss
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #2f4f4f; /* Verde escuro */
+  }
+  
+  .logo img {
+    width: 120px;
+    height: auto;
+  }
+  
+  .nav-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .nav-menu ul li a:hover {
+    color: #98FB98; /* Verde claro ao passar o mouse */
+  }
+  
