@@ -1,11 +1,10 @@
-// src/App.js
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
-import Header from './components/Header'; // Importe o Header
+import Header from './components/Header';
 
 function App() {
   return (
